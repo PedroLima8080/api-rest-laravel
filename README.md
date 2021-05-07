@@ -15,19 +15,19 @@ Para começar a usar o projeto, clone o repositório onde está sendo executado 
 8 - crie as tabelas rodando: php artisan migrate <br>
 9 - php artisan serve <br>
 
-rotas:
-GET: http://127.0.0.1:8000/api/persons
-retorna todas as pessoas
+rotas: <br>
+GET: http://127.0.0.1:8000/api/persons <br>
+retorna todas as pessoas <br>
 
-GET: http://127.0.0.1:8000/api/persons/id
-retorna a pessoa com este id
+GET: http://127.0.0.1:8000/api/persons/id <br>
+retorna a pessoa com este id <br>
 
-POST: http://127.0.0.1:8000/api/persons
-cria uma pessoa
+POST: http://127.0.0.1:8000/api/persons <br>
+cria uma pessoa <br>
 
-PUT: http://127.0.0.1:8000/api/persons/id
-edita uma pessoa com este id
+PUT: http://127.0.0.1:8000/api/persons/id <br>
+edita uma pessoa com este id <br>
 
-DELETE: http://127.0.0.1:8000/api/persons/id
-deleta uma pessoa com este id
+DELETE: http://127.0.0.1:8000/api/persons/id <br>
+deleta uma pessoa com este id <br>
 
