@@ -24,7 +24,7 @@ class PersonsController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\Person\Create  $request
+     * @param  \App\Http\Requests\Api\Person\Create  $request
      * @return \Illuminate\Http\Response
      */
     public function store(Create $request)
@@ -70,7 +70,7 @@ class PersonsController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\Person\Update  $request
+     * @param  \App\Http\Requests\Api\Person\Update  $request
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
