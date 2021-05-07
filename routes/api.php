@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\PersonsController;
+use App\Http\Controllers\Api\PersonsController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
