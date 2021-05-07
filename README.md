@@ -1,19 +1,19 @@
-Para começar a usar o projeto, clone o repositório onde está sendo executado seu compilador php.
-1 - git clone https://github.com/PedroLima8080/api-rest-laravel.git
-2 - cd api-rest-laravel/
-3 - composer install
-4 - npm install
-5 - faça uma cópia do arquivo .env.example e renomeie para .env
-6 - crie o banco de dados onde a api vai rodar
-7 - no .env, coloque:
-    DB_CONNECTION=pgsql
-    DB_HOST=127.0.0.1
-    DB_PORT=5432
-    DB_DATABASE=seuBancoDeDados
-    DB_USERNAME=seuUserName
-    DB_PASSWORD=suaSenha
-8 - crie as tabelas rodando: php artisan migrate
-9 - php artisan serve
+Para começar a usar o projeto, clone o repositório onde está sendo executado seu compilador php. <br>
+1 - git clone https://github.com/PedroLima8080/api-rest-laravel.git <br>
+2 - cd api-rest-laravel/ <br>
+3 - composer install <br>
+4 - npm install <br>
+5 - faça uma cópia do arquivo .env.example e renomeie para .env <br>
+6 - crie o banco de dados onde a api vai rodar <br>
+7 - no .env, coloque: <br>
+    DB_CONNECTION=pgsql <br>
+    DB_HOST=127.0.0.1 <br>
+    DB_PORT=5432 <br>
+    DB_DATABASE=seuBancoDeDados <br>
+    DB_USERNAME=seuUserName <br>
+    DB_PASSWORD=suaSenha <br>
+8 - crie as tabelas rodando: php artisan migrate <br>
+9 - php artisan serve <br>
 
 rotas:
 GET: http://127.0.0.1:8000/api/persons
