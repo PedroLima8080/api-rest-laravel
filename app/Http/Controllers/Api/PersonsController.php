@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
-use App\Http\Requests\Person\Create;
-use App\Http\Requests\Person\Update;
+use App\Http\Requests\Api\Person\Create;
+use App\Http\Requests\Api\Person\Update;
 use App\Models\Person;
 use Illuminate\Support\Facades\DB;
+use App\Http\Controllers\Controller;
 
 class PersonsController extends Controller
 {

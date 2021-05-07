@@ -25,6 +25,7 @@ class CreatePersonsTable extends Migration
             $table->string('city', 100);
             $table->string('house_number', 10);
             $table->string('phone', 15);
+            $table->softDeletes();
             $table->timestamps();
         });
     }
